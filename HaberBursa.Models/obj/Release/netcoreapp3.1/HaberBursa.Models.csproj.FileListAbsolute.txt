@@ -1,0 +1,10 @@
+C:\Users\furkan\source\repos\HaberBursa\HaberBursa.Models\bin\Release\netcoreapp3.1\HaberBursa.Models.deps.json
+C:\Users\furkan\source\repos\HaberBursa\HaberBursa.Models\bin\Release\netcoreapp3.1\HaberBursa.Models.runtimeconfig.json
+C:\Users\furkan\source\repos\HaberBursa\HaberBursa.Models\bin\Release\netcoreapp3.1\HaberBursa.Models.runtimeconfig.dev.json
+C:\Users\furkan\source\repos\HaberBursa\HaberBursa.Models\bin\Release\netcoreapp3.1\HaberBursa.Models.dll
+C:\Users\furkan\source\repos\HaberBursa\HaberBursa.Models\bin\Release\netcoreapp3.1\HaberBursa.Models.pdb
+C:\Users\furkan\source\repos\HaberBursa\HaberBursa.Models\obj\Release\netcoreapp3.1\HaberBursa.Models.csprojAssemblyReference.cache
+C:\Users\furkan\source\repos\HaberBursa\HaberBursa.Models\obj\Release\netcoreapp3.1\HaberBursa.Models.AssemblyInfoInputs.cache
+C:\Users\furkan\source\repos\HaberBursa\HaberBursa.Models\obj\Release\netcoreapp3.1\HaberBursa.Models.AssemblyInfo.cs
+C:\Users\furkan\source\repos\HaberBursa\HaberBursa.Models\obj\Release\netcoreapp3.1\HaberBursa.Models.dll
+C:\Users\furkan\source\repos\HaberBursa\HaberBursa.Models\obj\Release\netcoreapp3.1\HaberBursa.Models.pdb

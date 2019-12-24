@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAYz/VKTxdpkev9YthoYXYMAAAAAACAAAAAAAQZgAAAAEAACAAAABOdPyJQ8eCkeLcJrt8cL1faGMKAq4pbOE9A6NAQIjZIwAAAAAOgAAAAAIAACAAAAAswbeWNfiQSwONtWreFqVV3Tqtj62A7LqmNWvnRHDysYAAAAAZ37OJF/G9p0XwqnJkUw5QJrmKic+eSVmK8QfQTcGyC0LrOJlaY27A2/YuUw3IDIUGvWtRtRlviT4vUUCx4Q5xBujsr4ZGS47kc3qGieOoaJdud/cz+ya81qQgUwnq71luxjDKQ07nkxW9wk5Y1AbDm9UepAaDACDIF4b1kXHW0kAAAAB2Xrc9OcJZrjNkQQtvBq0WMowflbFrqOU7+Eh02qjlQS6qRmIiYsUTHHVrPfAY38QJzT2VICddoB8VwdqIGNcc</EncryptedPassword>
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="DefaultConnection">
+      <Value>Data Source=tcp:webprogramlamaodev20191223073024dbserver.database.windows.net,1433%3bInitial Catalog=HaberBursa20191224060521_db%3bUser Id=webadmin%40webprogramlamaodev20191223073024dbserver%3bPassword=furkan12321.</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
+    <EFMigrations Include="HaberBursa.Data.ApplicationDbContext">
+      <Value>Data Source=tcp:webprogramlamaodev20191223073024dbserver.database.windows.net,1433%3bInitial Catalog=HaberBursa20191224060521_db%3bUser Id=webadmin%40webprogramlamaodev20191223073024dbserver%3bPassword=furkan12321.</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,64 @@
+﻿@page
+@model HaberBursa.Pages.Writer.News.CreateModel
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<h4>News</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="News.Headline" class="control-label"></label>
+                <input asp-for="News.Headline" class="form-control" />
+                <span asp-validation-for="News.Headline" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="News.Image" class="control-label"></label>
+                <input asp-for="News.Image" class="form-control" />
+                <span asp-validation-for="News.Image" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="News.Explanation" class="control-label"></label>
+                <input asp-for="News.Explanation" class="form-control" />
+                <span asp-validation-for="News.Explanation" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="News.Content" class="control-label"></label>
+                <input asp-for="News.Content" class="form-control" />
+                <span asp-validation-for="News.Content" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="News.StartDate" class="control-label"></label>
+                <input asp-for="News.StartDate" class="form-control" />
+                <span asp-validation-for="News.StartDate" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="News.Video" class="control-label"></label>
+                <input asp-for="News.Video" class="form-control" />
+                <span asp-validation-for="News.Video" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="News.Rating" class="control-label"></label>
+                <input asp-for="News.Rating" class="form-control" />
+                <span asp-validation-for="News.Rating" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-page="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

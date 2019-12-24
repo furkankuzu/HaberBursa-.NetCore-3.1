@@ -1,0 +1,13 @@
+C:\Users\furkan\source\repos\HaberBursa\HaberBursa.Data\bin\Release\netcoreapp3.1\HaberBursa.Data.deps.json
+C:\Users\furkan\source\repos\HaberBursa\HaberBursa.Data\bin\Release\netcoreapp3.1\HaberBursa.Data.runtimeconfig.json
+C:\Users\furkan\source\repos\HaberBursa\HaberBursa.Data\bin\Release\netcoreapp3.1\HaberBursa.Data.runtimeconfig.dev.json
+C:\Users\furkan\source\repos\HaberBursa\HaberBursa.Data\bin\Release\netcoreapp3.1\HaberBursa.Data.dll
+C:\Users\furkan\source\repos\HaberBursa\HaberBursa.Data\bin\Release\netcoreapp3.1\HaberBursa.Data.pdb
+C:\Users\furkan\source\repos\HaberBursa\HaberBursa.Data\bin\Release\netcoreapp3.1\HaberBursa.Models.dll
+C:\Users\furkan\source\repos\HaberBursa\HaberBursa.Data\bin\Release\netcoreapp3.1\HaberBursa.Models.pdb
+C:\Users\furkan\source\repos\HaberBursa\HaberBursa.Data\obj\Release\netcoreapp3.1\HaberBursa.Data.csprojAssemblyReference.cache
+C:\Users\furkan\source\repos\HaberBursa\HaberBursa.Data\obj\Release\netcoreapp3.1\HaberBursa.Data.AssemblyInfoInputs.cache
+C:\Users\furkan\source\repos\HaberBursa\HaberBursa.Data\obj\Release\netcoreapp3.1\HaberBursa.Data.AssemblyInfo.cs
+C:\Users\furkan\source\repos\HaberBursa\HaberBursa.Data\obj\Release\netcoreapp3.1\HaberBursa.Data.csproj.CopyComplete
+C:\Users\furkan\source\repos\HaberBursa\HaberBursa.Data\obj\Release\netcoreapp3.1\HaberBursa.Data.dll
+C:\Users\furkan\source\repos\HaberBursa\HaberBursa.Data\obj\Release\netcoreapp3.1\HaberBursa.Data.pdb

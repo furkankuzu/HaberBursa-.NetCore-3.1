@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="HaberBursa20191224060521" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\furkan\\source\\repos\\HaberBursa\\HaberBursa\\obj\\Release\\netcoreapp3\.1\\PubTmp\\Out\\$" />
+  </parameter>
+  <parameter name="HaberBursa.Data.ApplicationDbContext" description="" value="Data Source=tcp:webprogramlamaodev20191223073024dbserver.database.windows.net,1433;Initial Catalog=HaberBursa20191224060521_db;User Id=webadmin@webprogramlamaodev20191223073024dbserver;Password=furkan12321." tags="dbfullsql">
+    <parameterEntry kind="ProviderPath" scope="dbfullsql" match="^C:\\Users\\furkan\\source\\repos\\HaberBursa\\HaberBursa\\obj\\Release\\netcoreapp3\.1\\PubTmp\\EFSQLScripts\\HaberBursa\.Data\.ApplicationDbContext\.sql$" />
+  </parameter>
+</parameters>

@@ -1,0 +1,95 @@
+﻿@page
+@model HaberBursa.Pages.Writer.News.IndexModel
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+
+    <div class="row">
+        <div class="col-6">
+
+            <h2 class="text-primary">News</h2>
+
+        </div>
+        <div class="col-6 text-right">
+            <a asp-page="Create" class="btn btn-primary">
+                <i class="fas fa-plus"></i> &nbsp;
+                Create New
+            </a>
+
+
+        </div>
+
+    </div>
+
+
+    <table class="table table-bordered table-striped">
+        <thead>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.News[0].Headline)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.News[0].Image)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.News[0].Explanation)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.News[0].Content)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.News[0].StartDate)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.News[0].Video)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.News[0].Rating)
+                </th>
+                <th></th>
+            </tr>
+        </thead>
+
+
+        <tbody>
+            @foreach (var item in Model.News)
+            {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Headline)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Image)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Explanation)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Content)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.StartDate)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Video)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Rating)
+                </td>
+                <td>
+                    <a asp-page="./Edit" asp-route-id="@item.ID"
+                       class="btn btn-success">
+                        <i class="fas fa-edit"></i> &nbsp; Edit
+                    </a>
+
+                    <a asp-page="./Delete" asp-route-id="@item.ID"
+                       class="btn btn-danger">
+                        <i class="fas fa-trash-alt"></i> &nbsp; Delete
+                    </a>
+                </td>
+            </tr>
+            }
+        </tbody>
+    </table>
